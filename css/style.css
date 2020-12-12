@@ -277,7 +277,7 @@ nav ul li a:hover {
 }
 
 @media(max-width:360px) {
-   .my_ser {
+.my_ser {
     width: 308px !important;
     margin-left: 0px !important;
 }
@@ -286,6 +286,10 @@ nav ul li a:hover {
     height: 162px !important;
 
 }
+.border_overlay {
+    top: 11px !important;
+}
+
 .overlay_txt h2 {
     font-size: 19px !important;
 }
