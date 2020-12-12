@@ -1,0 +1,35 @@
+.whole_sec {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    width: 400px;
+    height: 301px;
+    background-color: red;
+    z-index:2;
+    transform: translateY(-500px);
+    -webkit-transition: .4s;
+}
+
+.whole_sec:hover .overlay {
+    transform: translateY(0);
+}
+.border_overlay {
+    position: absolute;
+    border: 2px solid #fff;
+    width: 87%;
+    height: 83%;
+    top: 21px;
+    left: 20px;
+}
+
+.over_txt h2 {
+    text-align: center;
+    top: 36%;
+    left: 41%;
+    position: absolute;
+    color: #fff;
+}

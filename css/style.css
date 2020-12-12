@@ -1,0 +1,553 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 53px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #e7e7e7;
+      box-shadow: 0px 0px 17px #ffffff;
+      z-index: 5000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 19px 19px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #E02217;
+      font-size: 19px;
+      font-weight: 700;
+      text-transform: uppercase;
+      transition: 0.2s;
+}
+
+.menu-icon {
+    line-height: 28px;
+    width: 100%;
+    background: rgb(213,53,99);
+    text-align: right;
+    box-sizing: border-box;
+    padding: 11px 27px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #fff;
+      }
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+            text-decoration: none;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+      .logo img {
+    position: absolute;
+    width: 50px !important;
+    top: -12px !important;
+    left: 16px !important;
+}
+
+}
+.menu {
+    position: relative;
+    z-index: 12;
+}
+.logo img {
+    position: absolute;
+    width: 74px;
+    z-index: 21;
+    left: 6%;
+    top: 10px;
+}
+header {
+    position: absolute;
+    z-index: 5000;
+}
+
+.slider_prog {
+    position: relative;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    padding: 19px 19px;
+    background: rgb(213,53,99);
+    color: #fff;
+}
+.slider_prog img {
+    width: 100%;
+    height: auto;
+}
+
+.ty_ani {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+.ty_ani h1, h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+.ty_ani h1 {
+  font-size: 3.5rem;
+}
+
+.ty_ani h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: Sansita Swashed;
+  font-weight: 700;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1200px) {
+  .ty_ani h1 {
+    font-size: 5rem;
+  }
+  .link_icon {
+    margin-left: -12px;
+    margin-top: 23px;
+}
+}
+
+@media(max-width: 992px) {
+   .ty_ani {
+      top: 161px;
+  }
+
+  .ty_ani h2 {
+      font-size: 25px;
+  }
+
+  .ty_ani h1 {
+      font-size: 30px;
+  }
+  .red-color {
+      left: 36% !important;
+  }
+  .details_dasboard h2 span {
+    margin-left:73px !important;
+  }
+  .my_ser {
+    width:213px !important;
+}
+.border_overlay {
+    top: 16px !important;
+}
+.overlay {
+    width: 268px !important;
+    height: 163px !important;
+
+}
+
+}
+
+@media(max-width: 768px) {
+   .ty_ani {
+      top: 110px;
+  }
+
+  .ty_ani h2 {
+      font-size: 15px;
+  }
+
+  .ty_ani h1 {
+      font-size: 23px;
+  }
+  .details_dasboard h2 span {
+    margin-left:32px !important;
+  }
+  .my_ser {
+    width: 168px !important;
+}
+  .overlay {
+    width: 188px !important;
+    height: 119px !important;
+}
+.border_overlay {
+    width: 90% !important;
+    height: 82% !important;
+    top: 12px !important;
+    left: 5% !important;
+}
+.overlay_txt h2 {
+    left: 27% !important;
+    top: 29% !important;
+    font-size: 15px !important;
+}
+
+}
+@media(max-width: 600px) {
+   .ty_ani {
+      top: 110px;
+  }
+
+  .ty_ani h2 {
+      font-size: 15px;
+  }
+
+  .ty_ani h1 {
+      font-size: 23px;
+  }
+  .my_ser {
+    width: 308px !important;
+    margin-left: 62px !important;
+}
+.overlay {
+    width: 444px !important;
+    height: 263px !important;
+}
+.border_overlay {
+    height: 86% !important;
+    top: 16px !important;
+}
+.overlay_txt h2 {
+    left: 33% !important;
+    top: 34% !important;
+    position: absolute;
+    font-size: 28px !important;
+}
+
+}
+
+.ty_ani h1 {
+    color: #E02217;
+}
+
+.ty_ani h1 span {
+    color: #fff;
+}
+.my_img img {
+    margin-top: 15px;
+    width: 100%;
+    z-index: 1;
+}
+.details_dasboard {
+    margin: 69px 0px 0px 0px;
+    border-radius: 6px;
+    box-shadow: 5px 1px 0px #f3f3f3, -6px -2px 10px #bdb7b7;
+    padding: 21px 21px 21px 22px;
+}
+.footer_sec h5 {
+    font-size: 15px;
+    color: #66667F;
+}
+.details_dasboard h2 {
+    font-family: inherit;
+    color: #777;
+    font-size: 26px;
+    z-index: 3;
+}
+.red-color {
+    position: absolute;
+    background: #ff0303;
+    width: 143px;
+    height: 48px;
+    border-radius: 9px;
+    left: 22%;
+    top: 87px;
+    z-index: 1;
+}
+.details_dasboard h2 span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 16px;
+    font-family: Dancing script;
+    background: red;
+    border-radius: 5px;
+    padding: 7px 7px 8px 7px;
+}
+.details_dasboard h4 {
+    color: #D4A669;
+    font-size: 18px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+}
+
+.details_dasboard p {
+    color: #444;
+    font-size: 15px;
+}
+.social_link p {
+    margin-top: 23px;
+    font-weight: bold;
+    color: #666;
+}
+
+.link_icon ul li {
+    display: flex;
+    float: left;
+    margin-left: 9px;
+}
+.link_icon ul li a {
+    font-size: 13px;
+    padding: 3px 10px;
+    border: 1px solid #8c8787;
+    border-radius:5px;
+    color: #666;
+    transition: all .4s ease-in-out;
+}
+.link_icon ul li a:hover {
+  background:red;
+  color: #fff;
+}
+.my_img img {
+    width: 100%;
+    margin-top: 64px;
+}
+.Provide_service {
+    background: #FAFAFA;
+    margin-top: 87px;
+}
+.service-bottom {
+    margin-bottom: 100px;
+}
+.service_top {
+    margin-top: 94px;
+    text-align: center;
+}
+
+.service_txt h2 span {
+    background: red;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-family: 'Dancing Script';
+    color: #fff;
+    font-weight: 700;
+}
+
+.service_txt h2 {
+    color: #777777;
+    font-family: inherit;
+    font-size: 35px;
+}
+.service_txt p {
+    margin-top: 30px;
+    color: #666;
+    font-size: 15px;
+    font-family: 'Sansita Swashed';
+}
+.my_ser {
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+    width: 230px;
+    height: 239px;
+    border: 1px solid rgba(238, 238, 238, 0.65);
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.my_ser:before {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 35%;
+    left: 10px;
+    top: 10px;
+    border-top-left-radius: 5px;
+    border-top: 1px solid #f00;
+    border-left: 1px solid #f00;
+}
+.my_ser:after {
+    position: absolute;
+    content: "";
+    right: 10px;
+    bottom: 10px;
+    width: 35%;
+    height: 35%;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #ff0303;
+    border-bottom: 1px solid #ff0404;
+}
+.my_ser h2 {
+    font-size: 16px;
+    margin-top: 85px;
+    font-size: 21px;
+    font-family: Raleway;
+    font-weight: 600;
+    transition: .4s;
+}
+.icon_ser {
+   transition: .4s;
+}
+.icon_ser i {
+    color: #f50000;
+    margin-top: 14px;
+    font-size: 30px;
+
+}
+.my_ser:hover {
+    background: red;
+    color: #fff;
+    transition: 0.9s;
+}
+.my_ser:hover.my_ser:before,.my_ser:hover.my_ser:after,.my_ser:hover.my_ser i {
+  border-color: #fff;
+  color: #fff;
+}
+.top_work {
+    text-align: center;
+}
+.top_work h2 {
+    color: #777777;
+    font-weight: 500;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+
+}
+.top_work span {
+    background: #f00;
+    padding: 6px 6px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Dancing Script';
+}
+.top_work p {
+    color: #666;
+    font-size: 14px;
+}
+.middle_sec {
+    margin-bottom: 22px;
+}
+.middle_sec img {
+    margin-bottom: 15px;
+}
+.middle_sec img {
+    width: 100%;
+}
+.bottom_sec {
+    margin-bottom: 22px;
+}
+.bottom_sec img{
+  margin-bottom: 15px;
+}
+.bottom_sec img {
+    width: 100%;
+}
+
+.my_ser{
+  transition: 2s;
+  position: relative;
+}
+.my_ser:hover h2{
+  transform: translateY(45px);
+}
+.my_ser:hover .icon_ser{
+  transform: translateY(-45px);
+}
+
+.full_demo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 91%;
+    box-shadow: 0 8px 30px rgba(14,21,47,0.6);
+}
+.overlay {
+    position: absolute;
+    z-index: 5;
+    width: 328px;
+    height: 198px;
+    background-color: red;
+    transform: translateY(-500px);
+    transition: 0.5s;
+}
+.full_demo:hover .overlay {
+    transform: translateY(0);
+}
+.border_overlay {
+    position: absolute;
+    border: 2px solid #fff;
+    width: 90%;
+    height: 83%;
+    top: 18px;
+    left: 5%;
+}
+.overlay_txt {
+    text-align: center;
+    color: #fff;
+}
+.overlay_txt h2 {
+    left: 29%;
+    top: 34%;
+    position: absolute;
+    font-size: 24px;
+}
+.overlay_txt icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.overlay_icon i {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    color: #fff;
+    font-size: 20px;
+}
