@@ -289,7 +289,13 @@ nav ul li a:hover {
 .overlay_txt h2 {
     font-size: 19px !important;
 }
+.details_dasboard h2 {
+    font-size: 45px !important;
 }
+
+}
+
+
 .top_work h2 {
     font-size: 30px;
 }
