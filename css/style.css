@@ -66,42 +66,6 @@ nav ul li a {
     color: #fff;
     display: none;
 }
-
-@media(max-width: 786px) {
-
-      .logo {
-            position: fixed;
-            top: 0;
-            margin-top: 16px;
-      }
-
-      nav ul {
-            max-height: 0px;
-            background: #fff;
-      }
-      .showing {
-            max-height: 34em;
-      }
-
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-            text-decoration: none;
-      }
-
-      .menu-icon {
-            display: block;
-      }
-      .logo img {
-    position: absolute;
-    width: 50px !important;
-    top: -12px !important;
-    left: 16px !important;
-}
-
-}
 .menu {
     position: relative;
     z-index: 12;
@@ -178,15 +142,15 @@ nav ul li a:hover {
 
 @media(max-width: 992px) {
    .ty_ani {
-      top: 161px;
+      top: 223px;
   }
 
   .ty_ani h2 {
-      font-size: 25px;
+      font-size: 30px;
   }
 
   .ty_ani h1 {
-      font-size: 30px;
+      font-size: 40px;
   }
   .red-color {
       left: 36% !important;
@@ -207,18 +171,53 @@ nav ul li a:hover {
 }
 
 }
+@media(max-width: 786px) {
 
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #fff;
+      }
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+            text-decoration: none;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+      .logo img {
+    position: absolute;
+    width: 50px !important;
+    top: -12px !important;
+    left: 16px !important;
+} 
+
+
+}
 @media(max-width: 768px) {
    .ty_ani {
-      top: 110px;
+      top: 217px;
   }
 
   .ty_ani h2 {
-      font-size: 15px;
+      font-size: 20px;
   }
 
   .ty_ani h1 {
-      font-size: 23px;
+      font-size: 30px;
   }
   .details_dasboard h2 span {
     margin-left:32px !important;
@@ -241,19 +240,22 @@ nav ul li a:hover {
     top: 29% !important;
     font-size: 15px !important;
 }
+.slider_prog img {
+   margin-top: 15px !important;
+}
 
 }
 @media(max-width: 600px) {
    .ty_ani {
-      top: 110px;
+      top: 158px;
   }
 
   .ty_ani h2 {
-      font-size: 15px;
+      font-size: 20px;
   }
 
   .ty_ani h1 {
-      font-size: 23px;
+      font-size: 30px;
   }
   .my_ser {
     width: 308px !important;
@@ -273,10 +275,26 @@ nav ul li a:hover {
     position: absolute;
     font-size: 28px !important;
 }
-
+.slider_prog img {
+   margin-top: 27px !important;
+}
 }
 
 @media(max-width:360px) {
+  .ty_ani {
+      top: 110px;
+  }
+
+  .ty_ani h2 {
+      font-size: 15px;
+  }
+
+  .ty_ani h1 {
+      font-size: 20px;
+  }
+  .slider_prog img {
+   margin-top: 41px !important;
+}
 .my_ser {
     width: 308px !important;
     margin-left: 0px !important;
